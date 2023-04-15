@@ -1,0 +1,57 @@
+body {
+    font-family:bodoni MT;
+
+}
+.homepg {
+    background-color: rgb(255, 255, 255);
+    background-image: url("./Img/BGimg.jpg");
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+div {
+    position:static;
+}
+h4 {font-size: large;
+font-family: bodoni MT;}
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+a {
+    font-family: bodoni MT;
+    color: rgb(215, 10, 2) ;
+}
+.video_position{
+    top: 60px;
+    left: 200px;
+    position: relative;
+}
+.lucky_duck {
+    background-color:#92d1fd;
+    top: 60px;
+    left: 150px;
+    right: 150px;
+}
+
+.imgcircle {
+    border-radius: 50%;
+    border: 2px;
+    border-color: rgb(166, 232, 83);
+}
+.circular--square { 
+    border-radius: 50%; 
+ }
+
+
+.vl {
+    border-left: 6px solid black;
+    height: 170px; }
+.img_border {
+        border: 5px solid white;
+        height: 200px;
+        top: 1000px; 
+        left: 200px;
+      }
+.tableau_page
+      {background-color: rgb(117, 254, 104);}

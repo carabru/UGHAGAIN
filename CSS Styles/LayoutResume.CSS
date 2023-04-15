@@ -1,0 +1,106 @@
+.common {
+    border:4px solid rgb(170, 231, 92);
+    position: absolute;
+    background-color: #92d1fd;
+}
+.header {
+    padding-bottom: 8px;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+}
+.leftmenu {
+    top: 114px;
+    left: 5px;
+    width: 100px;
+    bottom: -400px;
+    padding-top: 50px;    
+}
+.PhotoSpot {
+    top: 114px;
+    right: 115px;
+    background-image: url('../Img/Burger.pt2.jpg');
+  position: top right;
+
+}
+
+.wordspos {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(215, 10, 2);
+    font-size: 20px;
+    position:absolute;
+    top: 20px;
+    right: 100px;
+}
+.mainbody {
+    top: 114px;
+    right: 214px;
+    left: 114px;
+    bottom: -400px;
+}
+.rightmenu {
+    top: 114px;
+    right: 5px;
+    width: 200px;
+    bottom: -400px;
+}
+.footer {
+    bottom: -39px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    font-size: 10px;
+    color: darkcyan;
+    text-align: center;
+    padding-top: 15px;
+}
+    
+.subheader {float: right;}
+
+.headerhmpg {
+    padding-bottom: 80px;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+   
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.main {
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0;
+    height: 300vh;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 18px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+html, body {
+    min-height: 100%;
+}
